@@ -1,4 +1,4 @@
-FROM  ubuntu:19.10
+FROM  ubuntu:20.04
 MAINTAINER uma
 RUN apt update && apt install -y nginx
 EXPOSE 80
